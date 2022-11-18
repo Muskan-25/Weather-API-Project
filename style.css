@@ -1,0 +1,53 @@
+* {
+    margin: auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1536244636800-a3f74db0f3cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=792&q=80") no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+input {
+    border-radius: 50px;
+    height: auto;
+    padding: 5px 15px;
+    width: 25vw;
+    margin-bottom: 20px;
+}
+
+input:focus-visible {
+    outline: 0px !important;
+}
+
+.container {
+    background: #00000052;
+    padding: 20px 20px 0 20px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.leftcol {
+    text-align: right !important;
+}
+
+.rightcol {
+    text-align: left !important;
+    justify-content: center;
+    margin: auto;
+}
+
+.transitionn {
+    transition: all 2s ease-in-out 0.2s;
+    background-position: top !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+body.swal2-height-auto {
+    height: 100vh !important;
+}
